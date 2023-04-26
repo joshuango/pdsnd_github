@@ -215,7 +215,7 @@ def display_raw_data(df):
     
     while True:
         if raw_data == 'yes':
-            print(df.head(raw_data_line + 5))
+            print(df[raw_data_line:raw_data_line + 5])
             raw_data_line = raw_data_line + 5
             count = count + 1
             raw_data = input('\nWould you like to view more individual trip data? Please enter "Yes" or "No"\n').lower()
