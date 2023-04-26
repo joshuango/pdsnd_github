@@ -87,7 +87,7 @@ def load_data(city, month, day):
     
     # extracting month and day of week
     df['month'] = df['Start Time'].dt.month
-    df['day_of_week'] = df['Start Time'].dt.weekday_name
+    df['day_of_week'] = df['Start Time'].dt.day
     
     # filtering by month
     if month != 'all':
@@ -207,8 +207,8 @@ def user_stats(df):
     print('-'*40)
 
 def display_raw_data(df):
+    """Display additional bikeshare data"""
     
-    # display and add 5 lines of data per request
     global raw_data_line
     count = 0
     raw_data = input ('\nWould you like to view individual trip data? Please enter "Yes" or "No".\n').lower()
