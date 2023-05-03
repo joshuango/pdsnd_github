@@ -32,7 +32,7 @@ Ensure you download the following data sets for each city:
 `python bikeshare.py`
 - Answer prompts provided via command line to get statistics
 
-Once the project initiates, following the questions/prompts to display the desired statistics. 
+Statistics of desired filter will be displayed. From here, you can either ask for additional statistics or end the program.
 
 ### Credits
 Udacity team for templates, guides and detailed tutorials that allowed this creation 
