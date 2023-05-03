@@ -30,6 +30,7 @@ Ensure you download the following data sets for each city:
 - Open terminal in the directory of the repository
 - Enter the following command:
 `python bikeshare.py`
+- Answer prompts provided via command line to get statistics
 
 Once the project initiates, following the questions/prompts to display the desired statistics. 
 
